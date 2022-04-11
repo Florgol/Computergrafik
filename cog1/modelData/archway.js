@@ -1,8 +1,8 @@
 /**
- * Empty object for groups in scenegraph.
+ * 3D archway object for groups in scenegraph.
  * 
  * @namespace cog1.data
- * @module empty
+ * @module archway
  */
 define(["exports", "data"], function(exports, data) {
 	"use strict";
@@ -17,12 +17,13 @@ define(["exports", "data"], function(exports, data) {
 		
 		if(parameter) {
 			var scale = parameter.scale;
-		}		
+		}	
 		
 		// Set default values if parameter is undefined.
 		if(scale == undefined){
-			scale = 100;
+			scale = 250;
 		}
+		
 		// Instance of the model to be returned.
 		var instance = {};
 
@@ -35,9 +36,11 @@ define(["exports", "data"], function(exports, data) {
 			[0,0,-2]
 		];
 		instance.polygonVertices = [
-			[0,1,2,3]
+			[0,1,2,4]
 		];	
-		instance.polygonColors = [4];
+		instance.polygonColors = [0];
+		
+		data.applyScale.call(instance, scale);
 		
 		return instance;		
 	};
