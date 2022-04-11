@@ -34,7 +34,9 @@ define(["exports", "data"], function(exports, data) {
 			[2,0,-2],
 			[0,0,-2]
 		];
-		instance.polygonVertices = [];	
+		instance.polygonVertices = [
+			[0,1,2,3]
+		];	
 		instance.polygonColors = [];
 		
 		return instance;		
