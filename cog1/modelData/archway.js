@@ -69,17 +69,19 @@ define(["exports", "data"], function(exports, data) {
 			[8,6,-3],
 			[8,6,-5],
 			[6,6,-5],
-			//roof base bottom square
+			//roof base - bottom square
 			[0,6,0],
 			[0,6,-5],
 			[8,6,-5],
 			[8,6,0],
-	
-			//roof base top square
+			//roof base - top square
 			[0,7,0],
 			[0,7,-5],
 			[8,7,-5],
 			[8,7,0],
+			//roof top
+			[4,10,0],
+			[4,10,-5]
 
 			
 		];
@@ -108,9 +110,12 @@ define(["exports", "data"], function(exports, data) {
 			[32,33,34,35],
 			[36,37,38,39],
 			[32,33,37,36],
-			[34,35,39,38]
+			[34,35,39,38],
+			//roof top
+			[36,37,41,40],
+			[38,39,40,41]
 		];
-		instance.polygonColors = [1,2,3,4,4,3,2,1,1,2,3,4,4,3,2,1,1,2,3,4];
+		instance.polygonColors = [1,2,3,4,4,3,2,1,1,2,3,4,4,3,2,1,1,2,3,4,1,2];
 		
 		data.applyScale.call(instance, scale);
 		
