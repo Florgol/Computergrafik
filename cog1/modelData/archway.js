@@ -26,62 +26,61 @@ define(["exports", "data"], function(exports, data) {
 		
 		// Instance of the model to be returned.
 		var instance = {};
-
 		//start of model - model of an archway
 		instance.vertices = [
 			//first pillar bottom square
-			[0,0,0],
-			[2,0,0],
-			[2,0,-2],
-			[0,0,-2],
-			//first pillar top square
-			[0,6,0],
-			[2,6,0],
-			[2,6,-2],
-			[0,6,-2],
-			//second pillar bottom square
-			[0,0,-3],
-			[2,0,-3],
-			[2,0,-5],
-			[0,0,-5],
-			//second pillar top square
-			[0,6,-3],
-			[2,6,-3],
-			[2,6,-5],
-			[0,6,-5],
-			//third pillar bottom square
+			[4,0,0],
 			[6,0,0],
-			[8,0,0],
-			[8,0,-2],
 			[6,0,-2],
-			//third pillar top square
+			[4,0,-2],
+			//first pillar top square
+			[4,6,0],
 			[6,6,0],
-			[8,6,0],
-			[8,6,-2],
 			[6,6,-2],
-			//fourth pillar bottom square
+			[4,6,-2],
+			//second pillar bottom square
+			[4,0,-3],
 			[6,0,-3],
-			[8,0,-3],
-			[8,0,-5],
 			[6,0,-5],
-			//fourth pillar top square
+			[4,0,-5],
+			//second pillar top square
+			[4,6,-3],
 			[6,6,-3],
-			[8,6,-3],
-			[8,6,-5],
 			[6,6,-5],
+			[4,6,-5],
+			//third pillar bottom square
+			[10,0,0],
+			[12,0,0],
+			[12,0,-2],
+			[10,0,-2],
+			//third pillar top square
+			[10,6,0],
+			[12,6,0],
+			[12,6,-2],
+			[12,6,-2],
+			//fourth pillar bottom square
+			[10,0,-3],
+			[12,0,-3],
+			[12,0,-5],
+			[10,0,-5],
+			//fourth pillar top square
+			[10,6,-3],
+			[12,6,-3],
+			[12,6,-5],
+			[10,6,-5],
 			//roof base - bottom square
-			[0,6,0],
-			[0,6,-5],
-			[8,6,-5],
-			[8,6,0],
+			[4,6,0],
+			[4,6,-5],
+			[12,6,-5],
+			[12,6,0],
 			//roof base - top square
-			[0,7,0],
-			[0,7,-5],
-			[8,7,-5],
-			[8,7,0],
+			[4,7,0],
+			[4,7,-5],
+			[12,7,-5],
+			[12,7,0],
 			//roof top
-			[4,10,0],
-			[4,10,-5]
+			[8,10,0],
+			[8,10,-5]
 
 			
 		];
