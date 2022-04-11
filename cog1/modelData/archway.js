@@ -29,16 +29,24 @@ define(["exports", "data"], function(exports, data) {
 
 		//start of model - model of an archway
 		instance.vertices = [
-			//first bottom square
+			//first pillar bottom square
 			[0,0,0],
 			[2,0,0],
 			[2,0,-2],
-			[0,0,-2]
+			[0,0,-2],
+			//first pillar top square
+			[0,6,0],
+			[2,6,0],
+			[2,6,-2],
+			[0,6,-2]
 		];
 		instance.polygonVertices = [
-			[0,1,2,3]
+			[0,1,2,3],
+			[4,5,6,7],
+			[0,1,4,5],
+			[2,3,6,7]
 		];	
-		instance.polygonColors = [1];
+		instance.polygonColors = [0,1,2,3];
 		
 		data.applyScale.call(instance, scale);
 		
