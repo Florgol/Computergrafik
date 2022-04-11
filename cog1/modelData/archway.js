@@ -38,7 +38,7 @@ define(["exports", "data"], function(exports, data) {
 		instance.polygonVertices = [
 			[0,1,2,3]
 		];	
-		instance.polygonColors = [0];
+		instance.polygonColors = [1];
 		
 		data.applyScale.call(instance, scale);
 		
