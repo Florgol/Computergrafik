@@ -21,7 +21,7 @@ define(["exports", "data"], function(exports, data) {
 		
 		// Set default values if parameter is undefined.
 		if(scale == undefined){
-			scale = 250;
+			scale = 100;
 		}
 		
 		// Instance of the model to be returned.
