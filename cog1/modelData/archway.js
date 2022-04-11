@@ -74,8 +74,8 @@ define(["exports", "data"], function(exports, data) {
 			//third pillar
 			[16,17,18,19],
 			[20,21,22,23],
-			[16,17,23,22],
-			[20,21,19,18]
+			[16,17,21,20],
+			[18,19,23,22]
 		];
 		instance.polygonColors = [1,2,3,4,4,3,2,1,1,2,3,4];
 		
