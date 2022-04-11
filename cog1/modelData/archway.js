@@ -72,13 +72,15 @@ define(["exports", "data"], function(exports, data) {
 			//roof base bottom square
 			[0,6,0],
 			[0,6,-5],
-			[8,6,0],
 			[8,6,-5],
+			[8,6,0],
+	
 			//roof base top square
 			[0,7,0],
 			[0,7,-5],
-			[8,7,0],
 			[8,7,-5],
+			[8,7,0],
+
 			
 		];
 		instance.polygonVertices = [
