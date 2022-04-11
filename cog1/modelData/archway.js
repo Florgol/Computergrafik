@@ -58,7 +58,7 @@ define(["exports", "data"], function(exports, data) {
 			[2,6,0],
 			[4,6,0],
 			[4,6,-2],
-			[4,6,-2],
+			[2,6,-2],
 			//fourth pillar bottom square
 			[2,0,-3],
 			[4,0,-3],
