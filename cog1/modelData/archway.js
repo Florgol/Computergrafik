@@ -84,7 +84,7 @@ define(["exports", "data"], function(exports, data) {
 			[4,2,0],
 			//roof top
 			[0,5,0],
-			[0,5,-5],
+			[0,5,-5]
 
 			/* Tower - next index is 42 */
 
