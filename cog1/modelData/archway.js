@@ -89,10 +89,10 @@ define(["exports", "data"], function(exports, data) {
 			/* Tower - next index is 42 */
 
 			//bottom square
-			[-9, -5, 0],
-			[-4, -5, 0],
-			[-4, -5, -5],
-			[-9, -5, -5]
+			[-9,-5,0],
+			[-4,-5,0],
+			[-4,-5,-5],
+			[-9,-5,-5]
 
 /* 			//top square
 			[-9, 15, 0],
