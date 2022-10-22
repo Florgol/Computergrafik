@@ -29,6 +29,17 @@ define(["exports", "data"], function(exports, data) {
 		
 		//start of model - model of an archway
 		instance.vertices = [
+			
+			/* Tower */
+
+			//bottom square
+			[-9, -5, 0],
+			[-4, -5, 0],
+			[-4, -5, -5],
+			[-9, -5, -5],
+			
+			/* Middle Part */
+			
 			//first pillar bottom square
 			[-4,-5,0],
 			[-2,-5,0],
