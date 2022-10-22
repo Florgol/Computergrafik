@@ -145,7 +145,7 @@ define(["exports", "data"], function(exports, data) {
 
 		];
 
-		instance.polygonColors = [1,2,3,4,4,3,2,1,1,2,3,4,4,3,2,1,1,2,3,4,1,2];
+		instance.polygonColors = [1,2,3,4,4,3,2,1,1,2,3,4,4,3,2,1,1,2,3,4,1,2,2];
 		
 		data.applyScale.call(instance, scale);
 		
