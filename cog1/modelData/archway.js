@@ -101,8 +101,20 @@ define(["exports", "data"], function(exports, data) {
 			[-9, 10, -5],
 
 			//roof
-			[-6.5, 15, 0],
-			[-6.5, 15, -5]
+			[-6.5, 18, 0],
+			[-6.5, 18, -5],
+
+			//clock
+			[-7, 12, 0],
+			[-6, 12, 0],
+			[-5, 13, 0],
+			[-5, 14, 0],
+			[-6, 15, 0],
+			[-7, 15, 0],
+			[-8, 14, 0],
+			[-8, 13, 0]
+
+
 
 
 			
@@ -151,7 +163,10 @@ define(["exports", "data"], function(exports, data) {
 
 			//roof
 			[46, 49, 51, 50],
-			[47, 48, 51, 50]
+			[47, 48, 51, 50],
+
+			//clock
+			[52, 53, 54, 55, 56, 57, 58, 59, 52]
 
 		];
 
@@ -159,7 +174,7 @@ define(["exports", "data"], function(exports, data) {
 			//middle part colors
 			1,2,3,4,4,3,2,1,1,2,3,4,4,3,2,1,1,2,3,4,1,2,
 			//tower colors
-			1,2,3,4,4,3
+			1,2,3,4,4,3,2
 		];
 		
 		data.applyScale.call(instance, scale);
