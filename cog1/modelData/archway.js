@@ -84,17 +84,17 @@ define(["exports", "data"], function(exports, data) {
 			[4,2,0],
 			//roof top
 			[0,5,0],
-			[0,5,-5]
+			[0,5,-5],
 
 			/* Tower - next index is 42 */
 
-/* 			//bottom square
+			//bottom square
 			[-9, -5, 0],
 			[-4, -5, 0],
 			[-4, -5, -5],
-			[-9, -5, -5],
+			[-9, -5, -5]
 
-			//top square
+/* 			//top square
 			[-9, 15, 0],
 			[-4, 15, 0],
 			[-4, 15, -5],
@@ -134,13 +134,13 @@ define(["exports", "data"], function(exports, data) {
 			[34,35,39,38],
 			//roof top
 			[36,37,41,40],
-			[38,39,40,41]
+			[38,39,40,41],
 
 			/* Tower */
 
-/* 			//tower pillar
-			[42, 43, 44, 45],
-			[46, 47, 48, 49] */
+			//tower pillar
+			[42, 43, 44, 45]
+	/* 		[46, 47, 48, 49] */
 
 
 		];
