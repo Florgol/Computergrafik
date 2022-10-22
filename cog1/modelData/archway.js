@@ -100,10 +100,8 @@ define(["exports", "data"], function(exports, data) {
 			[-9, 15, 0],
 			[-4, 15, 0],
 			[-4, 15, -5],
-			[-9, 15, -5],
+			[-9, 15, -5]
 
-			//roof top
-			[]
 
 			
 		];
