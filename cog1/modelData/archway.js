@@ -94,11 +94,15 @@ define(["exports", "data"], function(exports, data) {
 			[-4,-5,-5],
 			[-9,-5,-5]
 
-/* 			//top square
+			//top square
 			[-9, 15, 0],
 			[-4, 15, 0],
 			[-4, 15, -5],
-			[-9, 15, -5] */
+			[-9, 15, -5],
+
+			//roof
+			[-6.5, 18, 0],
+			[-6.5, 18, -5]
 
 
 			
@@ -106,7 +110,7 @@ define(["exports", "data"], function(exports, data) {
 
 		instance.polygonVertices = [
 
-			/* Middle Part */
+			/* Middle Part - 22 Elements */
 
 			//first pillar
 			[0,1,2,3],
@@ -140,12 +144,23 @@ define(["exports", "data"], function(exports, data) {
 			/* Tower */
 
 			//tower pillar
-			[42,43,44,45]
-/* 			[46, 47, 48, 49] */
+			[42, 43, 44, 45],
+			[46, 47, 48, 49],
+			[42, 46, 47, 43],
+			[45, 44, 48, 49],
+
+			//roof
+			[46, 49, 51, 50],
+			[47, 48, 51, 50]
 
 		];
 
-		instance.polygonColors = [1,2,3,4,4,3,2,1,1,2,3,4,4,3,2,1,1,2,3,4,1,2,2];
+		instance.polygonColors = [
+			//middle part colors
+			1,2,3,4,4,3,2,1,1,2,3,4,4,3,2,1,1,2,3,4,1,2,
+			//tower colors
+			1,2,3,4,4,3
+		];
 		
 		data.applyScale.call(instance, scale);
 		
