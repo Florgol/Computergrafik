@@ -33,10 +33,10 @@ define(["exports", "data"], function(exports, data) {
 			/* Tower */
 
 			//bottom square
-			[-9, -5, 0],
+/* 			[-9, -5, 0],
 			[-4, -5, 0],
 			[-4, -5, -5],
-			[-9, -5, -5],
+			[-9, -5, -5], */
 			
 			/* Middle Part */
 			
