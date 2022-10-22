@@ -33,7 +33,7 @@ define(["exports", "data"], function(exports, data) {
 			/* Tower */
 
 			//bottom square
-			[-9, -5, 0],
+/* 			[-9, -5, 0],
 			[-4, -5, 0],
 			[-4, -5, -5],
 			[-9, -5, -5],
@@ -41,7 +41,7 @@ define(["exports", "data"], function(exports, data) {
 			[-9, 15, 0],
 			[-4, 15, 0],
 			[-4, 15, -5],
-			[-9, 15, -5],
+			[-9, 15, -5], */
 			
 			/* Middle Part */
 			
