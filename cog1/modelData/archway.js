@@ -95,14 +95,14 @@ define(["exports", "data"], function(exports, data) {
 			[-9,-5,-5],
 
 			//top square
-			[-9, 15, 0],
-			[-4, 15, 0],
-			[-4, 15, -5],
-			[-9, 15, -5]
+			[-9, 10, 0],
+			[-4, 10, 0],
+			[-4, 10, -5],
+			[-9, 10, -5],
 
-/* 			//roof
-			[-6, 18, 0],
-			[-6, 18, -5] */
+			//roof
+			[-6.5, 13, 0],
+			[-6.5, 13, -5]
 
 
 			
@@ -149,9 +149,9 @@ define(["exports", "data"], function(exports, data) {
 			[42, 46, 47, 43],
 			[45, 44, 48, 49]
 
-/* 			//roof
+			//roof
 			[46, 49, 51, 50],
-			[47, 48, 51, 50] */
+			[47, 48, 51, 50]
 
 		];
 
@@ -159,7 +159,7 @@ define(["exports", "data"], function(exports, data) {
 			//middle part colors
 			1,2,3,4,4,3,2,1,1,2,3,4,4,3,2,1,1,2,3,4,1,2,
 			//tower colors
-			1,2,3,4
+			1,2,3,4,4,3
 		];
 		
 		data.applyScale.call(instance, scale);
