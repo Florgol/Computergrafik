@@ -101,8 +101,8 @@ define(["exports", "data"], function(exports, data) {
 			[-9, 15, -5],
 
 			//roof
-			[-6.5, 18, 0],
-			[-6.5, 18, -5]
+			[-6, 18, 0],
+			[-6, 18, -5]
 
 
 			
