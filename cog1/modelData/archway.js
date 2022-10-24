@@ -142,8 +142,14 @@ define(["exports", "data"], function(exports, data) {
 			//bottom square
 			[4, -5, 0],
 			[4, -5, -5],
-			[10, -5, -5],
-			[10, -5, 0]
+			[12, -5, -5],
+			[12, -5, 0],
+
+			//top square
+			[4, 2, 0],
+			[4, 2, -5],
+			[12, 2, -5],
+			[12, 2, 0]
 
 
 
@@ -216,7 +222,8 @@ define(["exports", "data"], function(exports, data) {
 
 			/* Right Wing */
 
-			[73, 74, 75, 76]
+			[73, 74, 75, 76],
+			[77, 78, 79, 80]
 
 
 		];
@@ -231,7 +238,7 @@ define(["exports", "data"], function(exports, data) {
 			//left wing
 			3,2,2,1,2,3,
 			//right wing
-			2
+			2,2
 		];
 		
 		data.applyScale.call(instance, scale);
