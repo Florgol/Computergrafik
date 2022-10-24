@@ -4,7 +4,7 @@
  * @namespace cog1.data
  * @module school
  */
- define(["exports", "data"], function(exports, data) {
+define(["exports", "data"], function(exports, data) {
 	"use strict";
 
 	/**
