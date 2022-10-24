@@ -149,7 +149,11 @@ define(["exports", "data"], function(exports, data) {
 			[4, 2, 0],
 			[4, 2, -5],
 			[12, 2, -5],
-			[12, 2, 0]
+			[12, 2, 0],
+
+			//roof
+			[6, 4, -2.5],
+			[10, 4, -2.5]
 
 
 
@@ -222,10 +226,15 @@ define(["exports", "data"], function(exports, data) {
 
 			/* Right Wing */
 
+			//bottom part
 			[73, 74, 75, 76],
 			[77, 78, 79, 80],
 			[74, 75, 79, 78],
-			[73, 76, 80, 77]
+			[73, 76, 80, 77],
+
+			//roof
+			[78, 79, 82, 81],
+			[77, 70, 82, 81]
 
 
 
@@ -241,7 +250,7 @@ define(["exports", "data"], function(exports, data) {
 			//left wing
 			3,2,2,1,2,3,
 			//right wing
-			2,2,2,2
+			2,2,2,2,2,2
 		];
 		
 		data.applyScale.call(instance, scale);
