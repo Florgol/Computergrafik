@@ -128,10 +128,14 @@ define(["exports", "data"], function(exports, data) {
 			[-9, -5, 10],
 
 			//top square
-			[-9, 3, 0],
-			[-4, 3, 0],
-			[-4, 3, 10],
-			[-9, 3, 10]
+			[-9, 2, 0],
+			[-4, 2, 0],
+			[-4, 2, 10],
+			[-9, 2, 10],
+
+			//roof
+			[-6.5, 10, 0],
+			[-6.5, 10, 10]
 
 
 
@@ -196,7 +200,14 @@ define(["exports", "data"], function(exports, data) {
 
 			//bottom part
 			[63, 64, 65, 66],
-			[67, 68, 69, 70]
+			[67, 68, 69, 70],
+			[67, 68, 64, 63],
+			[69, 70, 66, 65],
+
+			//roof
+			[67, 68, 71],
+			[69, 70, 72]
+
 
 		];
 
@@ -208,7 +219,7 @@ define(["exports", "data"], function(exports, data) {
 			//clock and clock-hand
 			3,4,4,
 			//left wing
-			3,2
+			3,2,2,1,2,3
 		];
 		
 		data.applyScale.call(instance, scale);
