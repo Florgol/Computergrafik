@@ -153,8 +153,16 @@ define(["exports", "data"], function(exports, data) {
 
 			//roof
 			[6, 4, -2.5],
-			[10, 4, -2.5]
+			[10, 4, -2.5],
 
+			/* Yard - next index is 83 */
+
+			[-4,-5,0],
+			[-4, -5, 10],
+			[-9, -5, 10],
+			[-9, -5, 16],
+			[12, -5, 16],
+			[12, -5, 0]
 
 
 			
@@ -234,7 +242,10 @@ define(["exports", "data"], function(exports, data) {
 
 			//roof
 			[78, 79, 82, 81],
-			[77, 70, 82, 81]
+			[77, 80, 82, 81],
+
+			/* Yard */
+			[83, 84, 85, 86, 87, 88]
 
 
 
@@ -250,7 +261,9 @@ define(["exports", "data"], function(exports, data) {
 			//left wing
 			3,2,2,1,2,3,
 			//right wing
-			2,2,2,2,2,2
+			2,2,2,2,2,2,
+			//yard
+			1
 		];
 		
 		data.applyScale.call(instance, scale);
