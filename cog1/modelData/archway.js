@@ -117,7 +117,15 @@ define(["exports", "data"], function(exports, data) {
 			//clock-hand
 			[-6.5, 8.5, 0],
 			[-6.5, 7.5, 0],
-			[-7, 7, 0]
+			[-7, 7, 0],
+
+			/* Left Wing - next indes is 63 */
+
+			//bottom square
+			[-9, -5, 0],
+			[-4, -5, 0],
+			[-4, -5, 10],
+			[-9, -5, 10]
 
 
 
@@ -174,7 +182,13 @@ define(["exports", "data"], function(exports, data) {
 			[52, 53, 54, 55, 56, 57, 58, 59, 52],
 
 			//clock-hand
-			[60, 61, 62]
+			[60, 61],
+			[61, 62],
+
+			/* Left Wing */
+
+			//bottom part
+			[63, 64, 65, 66]
 
 		];
 
@@ -184,7 +198,7 @@ define(["exports", "data"], function(exports, data) {
 			//tower colors
 			1,2,3,4,4,3,
 			//clock and clock-hand
-			3,3
+			3,4,4
 		];
 		
 		data.applyScale.call(instance, scale);
