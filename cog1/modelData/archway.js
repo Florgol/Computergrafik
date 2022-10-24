@@ -125,7 +125,14 @@ define(["exports", "data"], function(exports, data) {
 			[-9, -5, 0],
 			[-4, -5, 0],
 			[-4, -5, 10],
-			[-9, -5, 10]
+			[-9, -5, 10],
+
+			//top square
+			[-9, 3, 0],
+			[-4, 3, 0],
+			[-4, 3, 10],
+			[-9, 3, 10]
+
 
 
 
@@ -188,7 +195,8 @@ define(["exports", "data"], function(exports, data) {
 			/* Left Wing */
 
 			//bottom part
-			[63, 64, 65, 66]
+			[63, 64, 65, 66],
+			[67, 68, 69, 70]
 
 		];
 
@@ -198,7 +206,9 @@ define(["exports", "data"], function(exports, data) {
 			//tower colors
 			1,2,3,4,4,3,
 			//clock and clock-hand
-			3,4,4
+			3,4,4,
+			//left wing
+			3,2
 		];
 		
 		data.applyScale.call(instance, scale);
