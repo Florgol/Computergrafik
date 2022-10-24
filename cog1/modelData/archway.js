@@ -253,13 +253,13 @@ define(["exports", "data"], function(exports, data) {
 
 		instance.polygonColors = [
 			//middle part colors
-			1,2,3,4,4,3,2,1,1,2,3,4,4,3,2,1,1,2,3,4,1,2,
+			4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
 			//tower colors
-			1,2,3,4,4,3,
+			1,1,1,1,1,1,
 			//clock and clock-hand
 			3,4,4,
 			//left wing
-			3,2,2,1,2,3,
+			3,3,3,3,3,3,
 			//right wing
 			2,2,2,2,2,2,
 			//yard
