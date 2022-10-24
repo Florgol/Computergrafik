@@ -22,7 +22,7 @@ function(exports, scenegraph, animation) {
 
 		// BEGIN exercise myModel
 		var cubeNode = scenegraph.createNodeWithModel("archway", "archway", {scale:50});
-		cubeNode.rotateTo([-5.71, -0.46, 0]);
+		cubeNode.rotateTo([-6.1, -0.34, 0]);
 		// END exercise myModel
 		
 		return;
