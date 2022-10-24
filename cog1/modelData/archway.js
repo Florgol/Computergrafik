@@ -223,7 +223,10 @@ define(["exports", "data"], function(exports, data) {
 			/* Right Wing */
 
 			[73, 74, 75, 76],
-			[77, 78, 79, 80]
+			[77, 78, 79, 80],
+			[74, 75, 79, 78],
+			[73, 76, 80, 77]
+
 
 
 		];
@@ -238,7 +241,7 @@ define(["exports", "data"], function(exports, data) {
 			//left wing
 			3,2,2,1,2,3,
 			//right wing
-			2,2
+			2,2,2,2
 		];
 		
 		data.applyScale.call(instance, scale);
