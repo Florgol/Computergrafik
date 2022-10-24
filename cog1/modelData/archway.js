@@ -135,9 +135,15 @@ define(["exports", "data"], function(exports, data) {
 
 			//roof
 			[-6.5, 5, 0],
-			[-6.5, 5, 10]
+			[-6.5, 5, 10],
 
+			/*Right Wind - next index is 73 */
 
+			//bottom square
+			[4, -5, 0],
+			[4, -5, -5],
+			[10, -5, -5],
+			[10, -5, 0]
 
 
 
@@ -206,7 +212,11 @@ define(["exports", "data"], function(exports, data) {
 
 			//roof
 			[68, 69, 72, 71],
-			[67, 70, 72, 71]
+			[67, 70, 72, 71],
+
+			/* Right Wing */
+
+			[73, 74, 75, 76]
 
 
 		];
@@ -219,7 +229,9 @@ define(["exports", "data"], function(exports, data) {
 			//clock and clock-hand
 			3,4,4,
 			//left wing
-			3,2,2,1,2,3
+			3,2,2,1,2,3,
+			//right wing
+			2
 		];
 		
 		data.applyScale.call(instance, scale);
