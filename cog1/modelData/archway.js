@@ -119,7 +119,7 @@ define(["exports", "data"], function(exports, data) {
 			[-6.5, 7.5, 0],
 			[-7, 7, 0],
 
-			/* Left Wing - next indes is 63 */
+			/* Left Wing - next index is 63 */
 
 			//bottom square
 			[-9, -5, 0],
@@ -134,8 +134,8 @@ define(["exports", "data"], function(exports, data) {
 			[-9, 2, 10],
 
 			//roof
-			[-6.5, 10, 0],
-			[-6.5, 10, 10]
+			[-6.5, 5, 0],
+			[-6.5, 5, 10]
 
 
 
@@ -146,7 +146,7 @@ define(["exports", "data"], function(exports, data) {
 
 		instance.polygonVertices = [
 
-			/* Middle Part - 22 Elements */
+			/* Middle Part - 22 elements */
 
 			//first pillar
 			[0,1,2,3],
@@ -177,7 +177,7 @@ define(["exports", "data"], function(exports, data) {
 			[36,37,41,40],
 			[38,39,40,41],
 
-			/* Tower */
+			/* Tower - 9 elements*/
 
 			//tower pillar
 			[42, 43, 44, 45],
@@ -205,8 +205,8 @@ define(["exports", "data"], function(exports, data) {
 			[69, 70, 66, 65],
 
 			//roof
-			[67, 68, 71],
-			[69, 70, 72]
+			[68, 69, 72, 71],
+			[67, 70, 72, 71]
 
 
 		];
